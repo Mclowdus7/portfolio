@@ -98,6 +98,8 @@
   }
 
 
+
+
   @media (max-width:768px) {
     .header {
       display: flex;
@@ -115,15 +117,15 @@
       width: 180%;
     }
     
-
-  }
-
-  @media (max-width:480px) {
     img {
-      height: 112px;
-      width: 187px;
+      height: 150px;
+      width: 250px;
     }
 
   }
+
+
+  
+  
 
   
