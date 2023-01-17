@@ -17,7 +17,7 @@
   .headerLinks {
     display: flex;
     justify-content: space-between;
-    width: 120px;
+    width: 220px;
     background-color: pink;
   }
 
@@ -97,6 +97,10 @@
     width: 425px;
   }
 
+  #menuchk {
+    display: none;
+  }
+
 
 
 
@@ -106,6 +110,7 @@
       flex-direction: column;
       height: 200px;
     }
+
 
     .item1, .item2 {
       flex-direction: column;
@@ -122,6 +127,33 @@
       width: 250px;
     }
 
+  }
+
+  @media (max-width: 480px) {
+    .headerLinks{
+      display: none;
+    }
+
+    .header h3{
+      margin-bottom: 100px;
+    }
+
+    .burger {
+      display: block;
+        font-size: 3em;
+    
+    }
+
+    #burger:checked + .header{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      width: 100%;
+      top: 50px;
+      align-items: center;
+      
+      
+    }
   }
 
 
