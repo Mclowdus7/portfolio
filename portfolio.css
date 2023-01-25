@@ -183,6 +183,7 @@
     .item1, .item2 {
       flex-direction: column;
       text-align: center;
+      
     }
 
     .contactForm {
