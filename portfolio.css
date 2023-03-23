@@ -76,6 +76,14 @@
     flex-direction: row-reverse;
   }
 
+  .projectText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: blue; */
+    height: 80%;
+    width: 40%;
+  }
 
 
 
@@ -84,10 +92,6 @@
     width: 250x;
     border-radius: 45px;
     box-shadow: 10px 10px 10px black;
-  }
-
-  img:hover {
-    opacity: 0.5;
   }
 
   .contactForm {
@@ -198,7 +202,7 @@
   }
 
     img {
-      height: 100px;
+      height: 150px;
       width: 100x;
       border-radius: 10px;
     }
